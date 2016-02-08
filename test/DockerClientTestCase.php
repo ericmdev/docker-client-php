@@ -1,5 +1,6 @@
 <?php
 namespace DockerClient\Test;
+use PHPUnit_Framework_TestCase;
 
 /** 
  * DockerClient test case.
