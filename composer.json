@@ -1,0 +1,42 @@
+{
+    "name": "docker-client-php/docker-client-php",
+    "description": "RESTful API client for Docker in PHP.",
+    "type": "package",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Eric Mugerwa",
+            "email":  "dev@ericmugerwa.com",
+            "homepage":  "http://www.ericmugerwa.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "rogerthat"
+    ],
+    "homepage": "https://github.com/ericmdev/docker-client-php",
+    "autoload": {
+        "psr-4": {
+            "DockerClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DockerClient\\Test\\": "test"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "satooshi/php-coveralls": "dev-master",
+        "sensiolabs/security-checker": "^3.0"
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
